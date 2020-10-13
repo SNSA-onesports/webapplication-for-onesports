@@ -2,7 +2,7 @@ const JWTstrategy = require('passport-jwt').Strategy;
 const ExtractJWT = require('passport-jwt').ExtractJwt;
 const passport = require('passport');
 
-
+// json web token authentication 
 
 passport.use(new JWTstrategy({
     secretOrKey: 'top_secret',
